@@ -30,7 +30,7 @@ class WireMock extends CodeceptionModule
      */
     private $wireMock;
 
-    protected $config = [
+    protected array $config = [
         'host' => 'localhost',
         'port' => '8080'
     ];
